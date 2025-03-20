@@ -1,0 +1,12 @@
+COM This is a simple Hello World program in BORG
+
+START
+   VAR HELLO = 1
+   VAR WORLD = 2
+   PRINT HELLO
+   PRINT WORLD
+   HELLO ++
+   PRINT HELLO
+   WORLD = HELLO + WORLD
+   PRINT WORLD
+FINISH
